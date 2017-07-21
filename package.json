@@ -14,7 +14,7 @@
     "redis",
     "scripts",
     "gosquared",
-    "hmsetx"
+    "hmsetex"
   ],
   "author": "GoSquared <hello@gosquared.com>",
   "license": "MIT",
