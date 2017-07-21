@@ -1,0 +1,25 @@
+{
+  "name": "@gosquared/redis-scripts",
+  "version": "0.0.1",
+  "description": "Collection of redis scripts from GoSquared packaged as a node module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gosquared/redis-scripts.git"
+  },
+  "keywords": [
+    "redis",
+    "scripts",
+    "gosquared",
+    "hmsetx"
+  ],
+  "author": "GoSquared <hello@gosquared.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gosquared/redis-scripts/issues"
+  },
+  "homepage": "https://github.com/gosquared/redis-scripts#readme"
+}
