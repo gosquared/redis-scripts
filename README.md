@@ -1,5 +1,5 @@
 # redis-scripts
-GoSquared is customer analytics and chat platform. We've worked with Redis a lot and have developed scripts for it along the way.
+[GoSquared](https://gosquared.com/) is customer analytics and chat platform. We've worked with Redis in real time systems and have developed scripts for it along the way.
 
     npm install --save redis @gosquared/redis-scripts
 
