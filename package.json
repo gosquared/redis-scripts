@@ -1,6 +1,6 @@
 {
   "name": "@gosquared/redis-scripts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Collection of redis scripts packaged as a node module",
   "main": "index.js",
   "scripts": {
