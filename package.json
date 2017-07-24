@@ -1,10 +1,10 @@
 {
   "name": "@gosquared/redis-scripts",
   "version": "0.0.1",
-  "description": "Collection of redis scripts from GoSquared packaged as a node module",
+  "description": "Collection of redis scripts packaged as a node module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,13 @@
   "dependencies": {
     "lodash": "^4.17.4",
     "node-redis-scripty": "0.0.5"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2",
+    "redis": "^2.7.1"
+  },
+  "peerDependencies": {
+    "redis": "^2.7.1"
   }
 }
