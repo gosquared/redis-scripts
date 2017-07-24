@@ -1,7 +1,7 @@
 const _ = require('lodash');
 let Scripty = require('node-redis-scripty');
 
-const hmsetex = `
+const hmsetexsrc = `
   local key = KEYS[1]
   local args = ARGV
   local call = redis.call
@@ -18,7 +18,7 @@ module.exports = function(redis) {
 
   function hmsetex(key, fields) {
     return new Promise((resolve, reject) => {
-      scripty.loadScript('hmsetex', hmsetex, (err, script) => {
+      scripty.loadScript('hmsetex', hmsetexsrc, (err, script) => {
         if (err) return reject(err);
 
         // Make sure any null values are set to '' for redis
